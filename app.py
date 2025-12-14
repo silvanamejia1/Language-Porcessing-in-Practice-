@@ -239,9 +239,9 @@ if prompt := st.chat_input("Ask a question about Travel Destinations or Itinerar
 # TO DO: Example questions in an expander
 with st.expander("💡 Example Questions"):
     examples = [
-        "Give me ideal Winter Travel destinations ❄️",
-        "What are the best destinations for Foodies 🍣",
-        "What are the best destinations Colombia 🇨🇴",
+        "Give me ideal Winter Travel destinations? ❄️",
+        "What are the best destinations for Foodies? 🍣",
+        "What are the best destinations in Colombia? 🇨🇴",
         "What is the #1 travel destiantion for 2026? 🏆",
         "Where should I go for a backpacking trip? 🎒",
     ]
