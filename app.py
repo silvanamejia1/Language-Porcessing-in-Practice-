@@ -241,7 +241,7 @@ with st.expander("💡 Example Questions"):
     examples = [
         "Give me ideal Winter Travel destinations ❄️",
         "What are the best destinations for Foodies 🍣",
-        "Build a 5 day Itinerary through Colombia 🇨🇴",
+        "What are the best destinations Colombia 🇨🇴",
         "What is the #1 travel destiantion for 2026? 🏆",
         "Where should I go for a backpacking trip? 🎒",
     ]
