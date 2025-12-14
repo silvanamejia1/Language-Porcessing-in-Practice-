@@ -119,6 +119,7 @@ with st.sidebar:
 # Main App Header
 # -----------------------------------------------------------------------------
 st.title("✈️ Travel RAG Assistant")
+st.subheader("Where do you want to go on your next Voyage?")
 st.markdown("Ask questions about travel destinations and Itineraries and get AI-powered answers based on curated content.")
 
 # -----------------------------------------------------------------------------
