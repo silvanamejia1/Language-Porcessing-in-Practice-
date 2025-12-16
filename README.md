@@ -38,9 +38,13 @@ Once the agent receives the selected top-k chucks and the user query, it proceed
 The TravelRAG built follows the following architecture:
 
 **1. Query Input:** User enters a travel related question (destination ideas, seasonal recommendations, etc)
+
 **2. Retrieval of Relevant Information:** Considering the question, relevant information is looked up in a previously built database (duckdb database) . Identified chucks with similar semantics are selected.  
+
 **3. Selected Knowledge Strips:** The chunks are sorted in descending similarity scores. Only k results per query (as set by the user) are passed to the Large Language model (CrewAI based) along with the questions. 
+
 **4. Large Language Model:** The agent previously configured receives x # results per query (user defined), and questions to generate answers. It uses x # of max tools (user selected) as extra functions in the generation process. 
+
 **5. Generation Output:** The answer to the query is outputted in proper natural language, backed up by sources. Output also includes the sources from the database used and their similarity score in respect to the question. 
 
 ### Installation
