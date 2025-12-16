@@ -22,7 +22,7 @@ Once top documents  are selected they are passed to the CrewAI based agent which
 - Goal → _“Answer questions about travel destination recommendations using the database to build ideal itineraries”_: The primary goal of the agent is to help users overcome what I consider the hardest part of planning: choosing a destination. By offering evidence-based recommendations, the system looks to identify suitable travel destinations that fit their interests and based on these recommendations, suggest high-level itineraries that illustrate how a trip might be structured. It is important to highlight that this system is not designed to generate fully detailed travel plans with bookings, schedules, or logistics, but rather to serve as an informed starting point in the travel planning process.
 - Backstory → _“You are a travel expert who has access to a database with content about travel destinations. You want to provide a variety of options in terms of destinations depending on the user preferences and build ideal high level itineraries to fit traveler needs”_: The backstory defines this agents as a travel expert with access to a curated database of travel content, which reinforce evidences based recommendation and discourage false or overly detailed outputs.
 
-### Architecture Diagram
+## Architecture Diagram
 The TravelRAG built follows the following architecture:
 ![Architecture](backend/images/IMG_0778.png)
 
@@ -36,7 +36,7 @@ The TravelRAG built follows the following architecture:
 
 **5. Generation Output:** The answer to the query is outputted in proper natural language, backed up by sources. Output also includes the sources from the database used and their similarity score in respect to the question. 
 
-### Installation
+## Installation
 - To run the app locally, follow the steps below:
 - Open terminal inside main portfolio (MEJIA-Language-Processing)
 - Run ‘pip install pipreqs’ command
@@ -47,7 +47,7 @@ The TravelRAG built follows the following architecture:
 - Run ‘streamlit run app.py’ to open streamlit browser
 - Use your open API key to interact with the TRAVEL RAG
 
-### Link to deployed version
+## Link to deployed version
 https://silvanamejia1-language-porcessing-in-practice--app-guo92y.streamlit.app/
 
 
