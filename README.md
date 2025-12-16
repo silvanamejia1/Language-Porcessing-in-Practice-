@@ -37,7 +37,6 @@ Once the agent receives the selected top-k chucks and the user query, it proceed
 
 ### Architecture Diagram
 The TravelRAG built follows the following architecture:
-backend/images/IMG_0778.png
 ![Architecture](backend/images/IMG_0778.png)
 
 **1. Query Input:** User enters a travel related question (destination ideas, seasonal recommendations, etc)
