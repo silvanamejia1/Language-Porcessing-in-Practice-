@@ -80,7 +80,7 @@ class RAGAgent:
         )
         
         # TO DO: Create the task
-        task = Task(description = "Use the retrieved travel documents to help with travel planning.",
+        task = Task(description = question,
                     agent = agent,
                     expected_output = "A structured and concise travel recommendation, based only on the information from the document database.")
         
