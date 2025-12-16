@@ -71,7 +71,7 @@ class RAGAgent:
         agent = Agent(
             role='Travel Destination Recomendator Assistant',
             goal='Answer questions about travel destination recomendations using the database to build ideal itineraries',
-            backstory='You are a travel expert who has access to a database with content about travel destinations. You want to provide a variety of options in terms of destinations depending on the user preferences and an ideal itineraries to fit tarveler needs',
+            backstory='You are a travel expert who has access to a database with content about travel destinations. You want to provide a variety of options in terms of destinations depending on the user preferences and build ideal high level itineraries to fit traveler needs',
             tools=[query_tool],
             llm=llm,
             verbose=True, # Shows what the agent is doing
