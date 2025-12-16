@@ -9,6 +9,7 @@ TravelRAG Assistant is an interactive assistant that allows users to ask travel-
 - Travel guides from National Geographic
 - Destination overviews from professional advisors
 - Travel tips and recommendations from recognized travel Bloggers
+
 The app used a Retrieval-Augmented Generation (RAG) pipeline built with CrewAI, DuckDB, and Sentence Transformers, ensuring responses are informed by relevant source material rather than generic knowledge.
 
 ### Methodology
