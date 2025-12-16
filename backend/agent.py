@@ -82,7 +82,7 @@ class RAGAgent:
         # TO DO: Create the task
         task = Task(description = question,
                     agent = agent,
-                    expected_output = "A detailed travel recommendation based on the databse articles")
+                    expected_output = "A detailed travel recommendation based on the databse articles, dividing destination in similar categories (ex: by activities, by countries)")
         
         # TO DO: Create the Crew and run it
         crew = Crew(agents = [agent],
